@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #0e0e10;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 20px;
+  background: crimson;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#tempo {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.timeline .evento {
+  background: #1c1c1c;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 400px;
+  border-left: 4px solid #ff4d77;
+}
+
+.galeria img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.segredo {
+  background: #121212;
+}

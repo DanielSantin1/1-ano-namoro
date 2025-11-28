@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>1 Ano de Nós</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="intro">
+  <h1>1 ano com você</h1>
+  <p>Não é só tempo. É escolha diária.</p>
+  <button onclick="scrollToSection('contador')">Começar</button>
+</section>
+
+<section id="contador">
+  <h2>Nosso tempo juntos</h2>
+  <div id="tempo"></div>
+</section>
+
+<section class="timeline">
+  <h2>Nossa história</h2>
+  <div class="evento">📍 Nosso primeiro encontro</div>
+  <div class="evento">💋 Nosso primeiro beijo</div>
+  <div class="evento">💬 Primeira briga e reconciliação</div>
+  <div class="evento">🎉 1 ano juntos</div>
+</section>
+
+<section class="galeria">
+  <h2>Nossos momentos</h2>
+  <img src="assets/fotos/1.jpg">
+  <img src="assets/fotos/2.jpg">
+  <img src="assets/fotos/3.jpg">
+</section>
+
+<section class="segredo">
+  <h2>Clique para revelar</h2>
+  <p id="mensagem-secreta" onclick="revelar()">
+    💌 Clique aqui
+  </p>
+  <div id="texto" style="display:none;">
+    Você é minha casa em forma de pessoa.
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
