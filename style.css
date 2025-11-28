@@ -48,3 +48,22 @@ button {
 .segredo {
   background: #121212;
 }
+
+.galeria img {
+  transition: transform 0.3s ease;
+}
+.galeria img:hover {
+  transform: scale(1.1);
+}
+
+button {
+  border-radius: 30px;
+}
+
+.intro {
+  background: radial-gradient(circle, #1c1c1c, #000);
+}
+
+audio {
+  display: none;
+}
